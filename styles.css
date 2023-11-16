@@ -1,0 +1,102 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ font-family: 'Roboto', sans-serif; 
+}
+
+.home{
+  height: 100vh;
+  position:relative;
+}
+
+video{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.topnav{
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Playfair Display', serif;
+}
+.topnav a.active {
+ opacity: 0.8;
+ color: rgb(149, 121, 56);
+}
+ .underline{
+ color: rgb(149, 121, 56);
+ }
+
+
+#headingInfo{
+  color: rgb(105, 33, 9);
+  font-weight: bold;
+}
+
+.header{
+  position: relative;
+  padding-top: 160px;
+  color: #fff;
+  text-align: center;
+ 
+ }
+
+ #heading{
+   font-size: 60px;
+   font-family: 'Playfair Display', serif;
+
+ }
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+
+}
+
+.opening{
+  margin-top: 10px;
+ 
+}
+.block{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.block h2{
+font-family: 'Playfair Display', serif;
+position: relative;
+}
+
+#time{
+color:#fff;
+}
+
+.days, .hours, .minutes, .seconds {
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  align-self: center;
+}
+
+#timeName{
+font-family: 'Playfair Display', serif;
+color:#fff;
+font-size: 40px;
+}
